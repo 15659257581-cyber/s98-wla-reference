@@ -1,0 +1,44 @@
+{
+  "version": "2.0.0",
+  "edition_date": "October 2025",
+  "verified_date": "2026-11-02",
+  "source_page": "https://iho.int/standards-and-specifications",
+  "source_package": "https://iho.int/uploads/user/pubs/standards/S-98/S-98%20Ed%202.0.0.zip",
+  "translation": "Google Translate automatic reference draft with glossary normalization and reviewed WLA focus pages. Not reviewed by IHO; remaining pages have not been manually checked clause by clause.",
+  "documents": [
+    {
+      "slug": "main",
+      "title": "主文（含内部附录 A—H）",
+      "filename": "S-98_Main_Document_Ed 2.0.0_Final.pdf",
+      "pageCount": 104,
+      "sha256": "6d5696dff47edf674ee5af2ad435e6d70d9e7c3be2ac0c6391ae1726c066f207"
+    },
+    {
+      "slug": "annex-a",
+      "title": "Annex A · 互操作规范",
+      "filename": "S-98 Annex A_Interoperability_2.0.0_Final.pdf",
+      "pageCount": 74,
+      "sha256": "9b9163850f159bc67589f78dbf994c1376d7dfcf6c0efde10a33de638289134b"
+    },
+    {
+      "slug": "part-a",
+      "title": "Part A",
+      "filename": "S-98 Part A_Ed_2.0.0_Final.pdf",
+      "pageCount": 18,
+      "sha256": "31fa3e81ac9a962f662cddc59528bd8a00e16ff57a25ed016c2abb57a735d979"
+    },
+    {
+      "slug": "part-b",
+      "title": "Part B",
+      "filename": "S-98 Part B_Ed_2.0.0_Final.pdf",
+      "pageCount": 22,
+      "sha256": "2dde1bb70691321a4a66e3540efc529978d2675cd477e48423d5c4f68d91c57b"
+    }
+  ],
+  "total_pages": 218,
+  "source_rewrapped_chunks": 43,
+  "reviewed_focus_printed_pages": {
+    "main": "70-80"
+  },
+  "all_chunks_have_translations": true
+}
