@@ -1,9 +1,4 @@
-# S-98 Part B · 中文参考译文
-
-版本：Edition 2.0.0 / October 2025。英文来源：IHO官方发布包。
-译文为自动翻译参考稿，术语已部分统一；未经IHO审校或逐条人工校核。以官方英文为准。
-
-官方发布包：https://iho.int/uploads/user/pubs/standards/S-98/S-98%20Ed%202.0.0.zip
+# Part B
 
 ## PDF 第 1 页
 
