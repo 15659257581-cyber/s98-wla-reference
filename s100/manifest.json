@@ -209,7 +209,7 @@
   "translation_engine": "Argos Translate en_zh 1.9 with CTranslate2; local automatic draft; nonofficial; not manually checked clause by clause",
   "translated_segments": 12092,
   "missing_segments": 0,
-  "formula_fragments": 303,
-  "preserved_code_blocks": 2153,
+  "formula_fragments": 304,
+  "preserved_code_blocks": 2145,
   "verified_date": "2026-11-04"
 }

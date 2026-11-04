@@ -31584,49 +31584,19 @@ AES 算法只能加密一个区块的纯文本。 对于较大的信件,必须�
 
 表 15-1 — 明文填充
 
-明文／填充后的明文
+表头：Plain text 为明文，Padded plain text 为填充后的明文。字节值及其排列保留官方原表。
 
-```text
-xx xx 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F xx xx xx xx 0E 0E 0E 0E 0E 0E 0E 0E 0E 0E 0E 0E 0E 0E xx xx xx xx xx xx 0D 0D 0D 0D 0D 0D 0D 0D 0D 0D 0D 0D 0D xx xx xx xx xx xx xx xx 0C 0C 0C 0C 0C 0C 0C 0C 0C 0C 0C 0C xx xx xx xx xx xx xx xx xx xx 0B 0B 0B 0B 0B 0B 0B 0B 0B 0B 0B xx xx xx xx xx xx xx xx xx xx xx xx 0A 0A 0A 0A 0A 0A 0A 0A 0A 0A xx xx xx xx xx xx xx xx xx xx xx xx xx xx 09 09 09 09 09 09 09 09 09 xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx 08 08 08 08 08 08 08 08 xx xx xx xx xx xx xx xx xx
-```
+![官方原公式片段](fragments/0696-padding-table.webp)
 
-```text
-xx xx xx xx xx xx xx xx xx 07 07 07 07 07 07 07 xx xx xx xx xx xx xx xx xx xx
-```
-
-```text
-xx xx xx xx xx xx xx xx xx xx 06 06 06 06 06 06 xx xx xx xx xx xx xx xx xx xx xx
-```
-
-```text
-xx xx xx xx xx xx xx xx xx xx xx 05 05 05 05 05 xx xx xx xx xx xx xx xx xx xx xx xx
-```
-
-```text
-xx xx xx xx xx xx xx xx xx xx xx xx 04 04 04 04 xx xx xx xx xx xx xx xx xx xx xx xx xx
-```
-
-```text
-xx xx xx xx xx xx xx xx xx xx xx xx xx 03 03 03 xx xx xx xx xx xx xx xx xx xx xx xx xx xx
-```
-
-```text
-xx xx xx xx xx xx xx xx xx xx xx xx xx xx 02 02 xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx
-```
-
-```text
-xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx 01 xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx
-```
-
-×××; ×; [××]; 10 10出行; 30出行: 10入行;10出走; 20出行出行, 10起行;3出行为行;2出行. 10取行;1出行地; 3出走: 3起行地: 出行行;4出行道; 出走为行地道;3起走;3入行地.
+xx = 任意字节。
 
 15-6.2.3 AES 加密 CBC 模式
 
-在 CBC 模式下, 纯文本的每个块在加密前与以前的密码文本块同为 XOR。 第一个块需要初始化矢量 IV。 数学公式是 :
+在 CBC 模式下，每个明文块在加密前，先与前一个密文块进行异或（XOR）运算。第一个数据块需要初始向量 IV。数学公式如下：
 
 ![官方原公式片段](fragments/0696-015.webp)
 
-Ci是密码文本的 iph 块; Pi 是纯文本的 iph 块。 EK 是 AES 的加密方法 。
+Cᵢ 是第 i 个密文块；Pᵢ 是第 i 个明文块。Eₖ 是恰好加密一个数据块的 AES 加密方法。IV 是初始向量，⊕ 表示异或运算。
 
 ## 官方 PDF 第 697 页
 
