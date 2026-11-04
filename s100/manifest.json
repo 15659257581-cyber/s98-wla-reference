@@ -1,0 +1,215 @@
+{
+  "source": {
+    "edition": "5.2.1",
+    "date": "December 2025",
+    "url": "https://iho.int/uploads/user/pubs/standards/s-100/S-100%20Ed%205.2.1_FINAL.pdf",
+    "sha256": "31eb918a021a2017a8106ad18977f60d5f51f0fe92157126bacf068a66120f6f",
+    "pages": 898
+  },
+  "documents": [
+    {
+      "slug": "part-0",
+      "title": "第 0 部分 · 概述",
+      "pageCount": 24,
+      "startPage": 1,
+      "endPage": 24
+    },
+    {
+      "slug": "part-1",
+      "title": "第 1 部分 · 概念模式语言",
+      "pageCount": 22,
+      "startPage": 25,
+      "endPage": 46
+    },
+    {
+      "slug": "part-2",
+      "title": "第 2 部分 · 注册簿管理",
+      "pageCount": 20,
+      "startPage": 47,
+      "endPage": 66
+    },
+    {
+      "slug": "part-2a",
+      "title": "第 2a 部分 · 概念与数据字典注册簿",
+      "pageCount": 18,
+      "startPage": 67,
+      "endPage": 84
+    },
+    {
+      "slug": "part-2b",
+      "title": "第 2b 部分 · 显示注册簿模型",
+      "pageCount": 22,
+      "startPage": 85,
+      "endPage": 106
+    },
+    {
+      "slug": "part-3",
+      "title": "第 3 部分 · 通用要素模型与应用模式规则",
+      "pageCount": 30,
+      "startPage": 107,
+      "endPage": 136
+    },
+    {
+      "slug": "part-4a",
+      "title": "第 4a 部分 · 元数据",
+      "pageCount": 30,
+      "startPage": 137,
+      "endPage": 166
+    },
+    {
+      "slug": "part-4b",
+      "title": "第 4b 部分 · 影像与格网数据元数据",
+      "pageCount": 10,
+      "startPage": 167,
+      "endPage": 176
+    },
+    {
+      "slug": "part-4c",
+      "title": "第 4c 部分 · 数据质量元数据",
+      "pageCount": 24,
+      "startPage": 177,
+      "endPage": 200
+    },
+    {
+      "slug": "part-5",
+      "title": "第 5 部分 · 要素目录",
+      "pageCount": 26,
+      "startPage": 201,
+      "endPage": 226
+    },
+    {
+      "slug": "part-6",
+      "title": "第 6 部分 · 坐标参考系",
+      "pageCount": 26,
+      "startPage": 227,
+      "endPage": 252
+    },
+    {
+      "slug": "part-7",
+      "title": "第 7 部分 · 空间模式",
+      "pageCount": 24,
+      "startPage": 253,
+      "endPage": 276
+    },
+    {
+      "slug": "part-8",
+      "title": "第 8 部分 · 影像与格网数据",
+      "pageCount": 52,
+      "startPage": 277,
+      "endPage": 328
+    },
+    {
+      "slug": "part-9",
+      "title": "第 9 部分 · 显示",
+      "pageCount": 84,
+      "startPage": 329,
+      "endPage": 412
+    },
+    {
+      "slug": "part-9a",
+      "title": "第 9a 部分 · 显示（Lua）",
+      "pageCount": 32,
+      "startPage": 413,
+      "endPage": 444
+    },
+    {
+      "slug": "part-10a",
+      "title": "第 10a 部分 · ISO/IEC 8211 编码",
+      "pageCount": 48,
+      "startPage": 445,
+      "endPage": 492
+    },
+    {
+      "slug": "part-10b",
+      "title": "第 10b 部分 · GML 编码",
+      "pageCount": 30,
+      "startPage": 493,
+      "endPage": 522
+    },
+    {
+      "slug": "part-10c",
+      "title": "第 10c 部分 · HDF5 数据模型与文件格式",
+      "pageCount": 68,
+      "startPage": 523,
+      "endPage": 590
+    },
+    {
+      "slug": "part-11",
+      "title": "第 11 部分 · 产品规范",
+      "pageCount": 24,
+      "startPage": 591,
+      "endPage": 614
+    },
+    {
+      "slug": "part-12",
+      "title": "第 12 部分 · 维护程序",
+      "pageCount": 8,
+      "startPage": 615,
+      "endPage": 622
+    },
+    {
+      "slug": "part-13",
+      "title": "第 13 部分 · 脚本",
+      "pageCount": 36,
+      "startPage": 623,
+      "endPage": 658
+    },
+    {
+      "slug": "part-14",
+      "title": "第 14 部分 · 在线数据交换",
+      "pageCount": 28,
+      "startPage": 659,
+      "endPage": 686
+    },
+    {
+      "slug": "part-15",
+      "title": "第 15 部分 · 加密与数据保护",
+      "pageCount": 36,
+      "startPage": 687,
+      "endPage": 722
+    },
+    {
+      "slug": "part-16",
+      "title": "第 16 部分 · 互操作目录模型",
+      "pageCount": 68,
+      "startPage": 723,
+      "endPage": 790
+    },
+    {
+      "slug": "part-16a",
+      "title": "第 16a 部分 · 协调显示",
+      "pageCount": 18,
+      "startPage": 791,
+      "endPage": 808
+    },
+    {
+      "slug": "part-17",
+      "title": "第 17 部分 · 发现元数据与交换目录",
+      "pageCount": 42,
+      "startPage": 809,
+      "endPage": 850
+    },
+    {
+      "slug": "part-18",
+      "title": "第 18 部分 · 语言包",
+      "pageCount": 26,
+      "startPage": 851,
+      "endPage": 876
+    },
+    {
+      "slug": "annex-a",
+      "title": "附录 A · 术语与定义",
+      "pageCount": 22,
+      "startPage": 877,
+      "endPage": 898
+    }
+  ],
+  "total_pages": 898,
+  "parts": 28,
+  "translation_engine": "Argos Translate en_zh 1.9 with CTranslate2; local automatic draft; nonofficial; not manually checked clause by clause",
+  "translated_segments": 12092,
+  "missing_segments": 0,
+  "formula_fragments": 303,
+  "preserved_code_blocks": 2153,
+  "verified_date": "2026-11-04"
+}
